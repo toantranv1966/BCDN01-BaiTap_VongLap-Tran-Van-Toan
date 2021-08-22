@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Bài tập vòng lặp</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row py-5">
+            <div class="col-sm-5">
+            <h2>Bài 1 : In các số nguyên dương lẻ / chẵn nhỏ hơn 100 (for)</h2>
+                    <button type="button" class="btn btn-success my-2" onclick="inSoCL()()">In số chẵn lẻ</button>
+                    <div
+                        id="noti-insoCL" class="alert alert-success" style="display:none">
+                    </div>
+            </div>
+        </div>
+
+        <div class="row py-5">
+            <div class="col-sm-5">
+            <h2>Bài 1 : In các số nguyên dương lẻ / chẵn nhỏ hơn 100 (while)</h2>
+                    <button type="button" class="btn btn-success my-2" onclick="inSoCLWhile()">In số chẵn lẻ</button>
+                    <div
+                        id="noti-insoCLWhile" class="alert alert-success" style="display:none">
+                    </div>
+            </div>
+        </div>
+
+        <div class="row py-5">
+            <div class="col-sm-5">
+            <h2>Bài 2 : Danh sách số chia hết cho 3 từ 0-1000 (for)</h2>
+                    <button type="button" class="btn btn-success my-2" onclick="chia3()">Chia hết 3</button>
+                    <div
+                        id="noti-chia3" class="alert alert-success" style="display:none">
+                    </div>
+            </div>
+        </div>
+
+        <div class="row py-5">
+            <div class="col-sm-5">
+            <h2>Bài 2 : Danh sách số chia hết cho 3 từ 0-1000 (while)</h2>
+                    <button type="button" class="btn btn-success my-2" onclick="chia3While()">Chia hết 3</button>
+                    <div
+                        id="noti-chia3while" class="alert alert-success" style="display:none">
+                    </div>
+            </div>
+        </div>
+
+        <div class="row py-5">
+            <div class="col-sm-5">
+            <h2>Bài 3 : Tìm số nguyên dương nhỏ nhất sao cho 1+2+3+..+n < 10000</h2>
+                    <button type="button" class="btn btn-success my-2" onclick="soNhonhat()">Tìm số nhỏ nhất</button>
+                    <div
+                        id="noti-soNN" class="alert alert-success" style="display:none">
+                    </div>
+            </div>
+        </div>
+
+        <div class="row py-5">
+            <div class="col-sm-5">
+                <h2>Bài 4 : Tính tổng S(n) = x + x^2 + x^3 + ...+x^n</h2>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Nhập vào số x</label>
+                      <input type="text" class="form-control" id="inputx">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Nhập vào số n</label>
+                        <input type="text" class="form-control" id="inputn">
+                      </div>
+                    <button type="button" class="btn btn-success my-2" onclick="tinhTong()">Tính tổng</button>
+                    <div
+                        id="noti-tongSn" class="alert alert-success" style="display:none">
+                    </div>
+            </div>
+        </div>
+
+        <div class="row py-5">
+            <div class="col-sm-5">
+                <h2>Bài 5: Tính giai thùa 1*2*3*...*n</h2>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Nhập vào số n</label>
+                      <input type="text" class="form-control" id="inputngt">
+                    </div>
+
+                    <button type="button" class="btn btn-success my-2" onclick="tinhGiaithua()">Tính giai thừa</button>
+                    <div
+                        id="noti_giaithua" class="alert alert-success" style="display:none">
+                    </div>
+            </div>
+        </div>
+
+        <div class="row py-5">
+            <div class="col-sm-5">
+                <h2>Bài 6: In 10 thẻ div</h2>
+                    <button type="button" class="btn btn-success my-2" onclick="In10div()">In 10 thẻ div</button>
+                    <div
+                        id="noti-theDiv" class="alert alert-success" style="display:none">
+                    </div>
+            </div>
+        </div>
+
+        <div class="row py-5">
+            <div class="col-sm-5">
+                <h2>Bài 7: In ra danh sách số nguyên tố từ 1 - n</h2>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Nhập vào số n</label>
+                      <input type="text" class="form-control" id="inputSon">
+                    </div>
+                    <button type="button" class="btn btn-success my-2" onclick="inDSsoNT()">Số nguyên tố</button>
+                    <div
+                        id="noti_soNT" class="alert alert-success" style="display:none">
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
